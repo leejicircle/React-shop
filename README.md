@@ -30,8 +30,6 @@ search 검색 List focus문제
 
 ## Vercel
 
-### 배포 단계
-
--
-
 ### 배포 주소
+
+https://react-shop-seven-blush.vercel.app/
