@@ -2,13 +2,13 @@ import { Routes, Route } from "react-router-dom";
 import { lazy, memo, Suspense } from "react";
 import Error from "../views/Error";
 import Index from "../views/Index";
+import Fashion from "../views/Fashion";
+import Cart from "../views/Cart";
+import Products from "../views/Products";
+import Accessory from "../views/Accessory";
+import Digital from "../views/Digital";
 
 const Router = (): JSX.Element => {
-  const Products = lazy(() => import("../views/Products"));
-  const Cart = lazy(() => import("../views/Cart"));
-  const Fashion = lazy(() => import("../views/Fashion"));
-  const Accessory = lazy(() => import("../views/Accessory"));
-  const Digital = lazy(() => import("../views/Digital"));
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
